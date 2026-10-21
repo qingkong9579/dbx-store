@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "com.dbx.dbf",
   "publisher": "qingkong9579",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "name": "DBF Studio",
   "description": "Open, inspect, edit, validate and export DBF tables (dBase III/IV/V, FoxPro, VFP), with built-in field dictionaries for Chinese exchange settlement files.",
-  "icon": "https://raw.githubusercontent.com/qingkong9579/dbx.dbf/v0.3.1/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/qingkong9579/dbx.dbf/v0.3.2/assets/plugin.svg",
   "tags": [
     "dbf",
     "database",
@@ -21,10 +21,10 @@
     "host.filesystem",
     "host.storage"
   ],
-  "source": "https://github.com/qingkong9579/dbx.dbf/tree/v0.3.1",
+  "source": "https://github.com/qingkong9579/dbx.dbf/tree/v0.3.2",
   "homepage": "https://github.com/qingkong9579/dbx.dbf",
   "license": "MIT",
-  "releaseNotes": "0.3.1：新增作者与开源地址，manifest 增加 publisher / source / homepage；示例表改为构造数据；字段字典覆盖深市 D-COM 5.18、沪市 PROP 与上市公司版 V3.19。",
+  "releaseNotes": "0.3.2：全新插件图标（渐变徽章 + 数据表文档），插件中心、商店与工作台内统一展示；功能与 0.3.1 一致。",
   "localizations": {
     "zh-CN": {
       "name": "DBF Studio",
@@ -34,33 +34,33 @@
   "targets": [
     {
       "target": "windows-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.1/com.dbx.dbf-0.3.1-windows-x64.dbxp",
-      "sha256": "4c3d3466f916770e2483bf247c7b59ba64c95ec8dfe1a550f7221963ce283404",
-      "size": 1890502
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.2/com.dbx.dbf-0.3.2-windows-x64.dbxp",
+      "sha256": "04e7f05d37ea333f2eb07009856ec13589f5c59d133af8b4783bbbeca3caf6b8",
+      "size": 1890873
     },
     {
       "target": "linux-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.1/com.dbx.dbf-0.3.1-linux-x64.dbxp",
-      "sha256": "0d2809f969da03305b01e27fdb60005ad3ef902ff831af3e427eb6614cb484e3",
-      "size": 1820734
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.2/com.dbx.dbf-0.3.2-linux-x64.dbxp",
+      "sha256": "22c701c6a48aa18d5d7ce7ce7dc240d2edd315d0c873645f096254830d0139dc",
+      "size": 1821110
     },
     {
       "target": "linux-arm64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.1/com.dbx.dbf-0.3.1-linux-arm64.dbxp",
-      "sha256": "204b8fae7d4a41cd27f7cd8498154d41b9276c784bc5f1d9c68aa3498a6f0e0b",
-      "size": 1728382
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.2/com.dbx.dbf-0.3.2-linux-arm64.dbxp",
+      "sha256": "f27b85e301e6014e37a1db15cb522f3afa13b91c5abc070e46798b538ed5f779",
+      "size": 1728758
     },
     {
       "target": "darwin-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.1/com.dbx.dbf-0.3.1-darwin-x64.dbxp",
-      "sha256": "8452cca880bab2c81b17a5885c5ac970413a3e9220b9021cc7d320c17242ff6e",
-      "size": 1806803
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.2/com.dbx.dbf-0.3.2-darwin-x64.dbxp",
+      "sha256": "45c76e30fa12ed5dc045c4593e69d387b38f396b446540a8aa8d51722e69ef32",
+      "size": 1807178
     },
     {
       "target": "darwin-arm64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.1/com.dbx.dbf-0.3.1-darwin-arm64.dbxp",
-      "sha256": "338855f0fe799b0bb4358250a1d26b0c80b7da8cfcbb761eb7ad015080b7676b",
-      "size": 1736822
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.2/com.dbx.dbf-0.3.2-darwin-arm64.dbxp",
+      "sha256": "70d3e19790f8cd0766b7fdaaf8efc9ceb798a653a359e0cd71e6818c419c7d36",
+      "size": 1737192
     }
   ]
 }
