@@ -2,42 +2,42 @@
   "schemaVersion": 1,
   "id": "com.dbx.dbf",
   "publisher": "qingkong9579",
-  "version": "0.3.3",
-  "icon": "https://raw.githubusercontent.com/qingkong9579/dbx.dbf/v0.3.3/assets/plugin.svg",
-  "source": "https://github.com/qingkong9579/dbx.dbf/tree/v0.3.3",
+  "version": "0.3.5",
+  "icon": "https://raw.githubusercontent.com/qingkong9579/dbx.dbf/v0.3.5/assets/plugin.svg",
+  "source": "https://github.com/qingkong9579/dbx.dbf/tree/v0.3.5",
   "homepage": "https://github.com/qingkong9579/dbx.dbf",
   "license": "MIT",
-  "releaseNotes": "0.3.3：新增手动更换编码重新打开（编码菜单、带预览的编码对话框、按文件记忆）；修复 LDID 为 0 时自动识别回退 UTF-8 引起的乱码；保存时按当前编码写入对应 LDID。",
+  "releaseNotes": "0.3.5：字段释义解耦为数据层（列名→中文名映射文件）与规则层，新增「字段释义」导入/导出，可维护自定义释义且优先级最高。0.3.4：校验细化为数值整数位/小数位/日期/控制字符等分类，交易市场代码显示中文值域，信息面板显示接口数据日期，新建表可选 dBase III/IV/V。0.3.3：新增手动更换编码重新打开（编码菜单、带预览的对话框、按文件记忆），修复自动识别回退 UTF-8 导致的乱码。",
   "targets": [
     {
       "target": "windows-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-windows-x64.dbxp",
-      "sha256": "258e0e478bbd427dfe3a1730bcd58e478d4dbaa57e2a139066718170f8d1f469",
-      "size": 1894018
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.5/com.dbx.dbf-0.3.5-windows-x64.dbxp",
+      "sha256": "bf04b9094c85b0744a1868b0f49df9f47beecaa3980f8a55653b795ab8993350",
+      "size": 1899488
     },
     {
       "target": "linux-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-linux-x64.dbxp",
-      "sha256": "9ffe0a4d1f601882cbf4ff97a5f3a74f08b873aababa69556ea0b4f7959a9783",
-      "size": 1824303
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.5/com.dbx.dbf-0.3.5-linux-x64.dbxp",
+      "sha256": "de33d71f211e677bf5dc48260f60a05e9bbf918f678d9d7e292d87d8cfb9712c",
+      "size": 1829771
     },
     {
       "target": "linux-arm64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-linux-arm64.dbxp",
-      "sha256": "f648cc4e5e9cbc1b9ace3278bd148368720ead987dab78f69ebae73649924b12",
-      "size": 1731953
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.5/com.dbx.dbf-0.3.5-linux-arm64.dbxp",
+      "sha256": "6b5136914b90c404d297ad95f5f4c55efacba273ea66e83086f52211283ac27d",
+      "size": 1737422
     },
     {
       "target": "darwin-x64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-darwin-x64.dbxp",
-      "sha256": "33f9a56f10ed001aacf8bfff135f3b5d3f1b401552a605d80fe29100f7b021bd",
-      "size": 1810374
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.5/com.dbx.dbf-0.3.5-darwin-x64.dbxp",
+      "sha256": "3ce26f0223ea421692ddfef25c1b53cd26c9feb7dcf868d97823d56f8b385e7e",
+      "size": 1815839
     },
     {
       "target": "darwin-arm64",
-      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-darwin-arm64.dbxp",
-      "sha256": "ab2552f0f875dcd22e2c840a8e4afc7ffacbdfe4a9221dd88b41c2c618a560cd",
-      "size": 1740381
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.5/com.dbx.dbf-0.3.5-darwin-arm64.dbxp",
+      "sha256": "63b944277d8d00d9728f3a53cdf41122c9b076ef56ee306f97ab0a1460178283",
+      "size": 1745856
     }
   ]
 }
