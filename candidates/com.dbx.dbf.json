@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "com.dbx.dbf",
+  "publisher": "qingkong9579",
+  "version": "0.3.3",
+  "icon": "https://raw.githubusercontent.com/qingkong9579/dbx.dbf/v0.3.3/assets/plugin.svg",
+  "source": "https://github.com/qingkong9579/dbx.dbf/tree/v0.3.3",
+  "homepage": "https://github.com/qingkong9579/dbx.dbf",
+  "license": "MIT",
+  "releaseNotes": "0.3.3：新增手动更换编码重新打开（编码菜单、带预览的编码对话框、按文件记忆）；修复 LDID 为 0 时自动识别回退 UTF-8 引起的乱码；保存时按当前编码写入对应 LDID。",
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-windows-x64.dbxp",
+      "sha256": "258e0e478bbd427dfe3a1730bcd58e478d4dbaa57e2a139066718170f8d1f469",
+      "size": 1894018
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-linux-x64.dbxp",
+      "sha256": "9ffe0a4d1f601882cbf4ff97a5f3a74f08b873aababa69556ea0b4f7959a9783",
+      "size": 1824303
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-linux-arm64.dbxp",
+      "sha256": "f648cc4e5e9cbc1b9ace3278bd148368720ead987dab78f69ebae73649924b12",
+      "size": 1731953
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-darwin-x64.dbxp",
+      "sha256": "33f9a56f10ed001aacf8bfff135f3b5d3f1b401552a605d80fe29100f7b021bd",
+      "size": 1810374
+    },
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/qingkong9579/dbx.dbf/releases/download/v0.3.3/com.dbx.dbf-0.3.3-darwin-arm64.dbxp",
+      "sha256": "ab2552f0f875dcd22e2c840a8e4afc7ffacbdfe4a9221dd88b41c2c618a560cd",
+      "size": 1740381
+    }
+  ]
+}
